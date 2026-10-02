@@ -3,9 +3,7 @@ Kaggle Link: 'https://www.kaggle.com/datasets/aaron7sun/stocknews'
 
 Week 1: Python + AI
 
-Row: df = pd.read_csv(url)
-
-Meaning of row: Loading Data from a URL into a pandas dataframe
+DATE Row: The date when the news occurred and the market was tracked.
 
 Diagnostics Question: "How many trading days in the dataset were between 0 to 1 days?"
 
