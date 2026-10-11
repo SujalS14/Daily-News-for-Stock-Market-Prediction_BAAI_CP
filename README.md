@@ -3,12 +3,16 @@ Kaggle Link: 'https://www.kaggle.com/datasets/aaron7sun/stocknews'
 
 Week 1: Python + AI
 
-DATE Row: The date when the news occurred and the market was tracked.
+DATE Row: One row = one trading day: the date, the top 25 news headlines, and a Label (1 = Dow went up, 0 = it went down).
 
-Diagnostics Question: "How many trading days in the dataset were between 0 to 1 days?"
+Diagnostics Question: "Do the top world news headlines on a given day line up with whether the Dow Jones went up or down?"
 
-Summary: During this class, I was able to learn about how to find different repositories, where I looked for a stock market repository using kaggle and I uploaded it into github and then I was able to use google colab notebook. The notebook leaded the news headlines data, cleaned it by removing unnecessary and missing values, and then made a bar graph to help visulatize the distribution of the target 'Label' column, which was a dataset in bar graph format.
+Summary: During this class, I was able to learn about how to find different repositories, where I looked for a stock market repository using kaggle and I uploaded it into github and then I was able to use google colab notebook. The notebook leaded the news headlines data, found no duplicates and dropped 3 days with missing headlines, leaving 1,986 days. My bar chart shows slightly more up days (1) than down days (0).
 
+
+
+
+Week 2: SQL
 
 **Q1. How many days had a label of 1 (market up)?**
 ```sql
@@ -16,7 +20,7 @@ SELECT COUNT(*) AS up_days
 FROM data
 WHERE label = 1
 ```
-**Finding:** 1,065 of our 1,989 days (about 54%) had a label of 1.
+**Finding:** 1062 of our 1989 days (about 53%) had a label of 1.
 
 **Q2. Which year had the most days with a label of 1?**
 ```sql
