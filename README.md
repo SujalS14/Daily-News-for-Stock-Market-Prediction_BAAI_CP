@@ -1,7 +1,7 @@
 # Daily-News-for-Stock-Market-Prediction_BAAI_CP
 Kaggle Link: 'https://www.kaggle.com/datasets/aaron7sun/stocknews'
 
-Week 1: Python + AI
+**Week 1: Python + AI**
 
 DATE Row: One row = one trading day: the date, the top 25 news headlines, and a Label (1 = Dow went up, 0 = it went down).
 
@@ -12,7 +12,7 @@ Summary: During this class, I was able to learn about how to find different repo
 
 
 
-Week 2: SQL
+**Week 2: SQL**
 
 **Q1. How many days had a label of 1 (market up)?**
 ```sql
@@ -41,10 +41,14 @@ GROUP BY month ORDER BY down_days DESC LIMIT 5
 
 
 
-Week 3: Tableau
+**Week 3: Tableau**
 
-Dashboard URL: 'https://public.tableau.com/app/profile/sujal.singarapu/viz/DJIAMarketTrendsDashboard/DJIAMarketTrendsDashboard?publish=yes'
+## Dashboard
+View my dashboard
+https://public.tableau.com/app/profile/sujal.singarapu/viz/DJIAMarketTrendsDashboard/DJIAMarketTrendsDashboard?publish=yes
 <img width="1511" height="826" alt="Dashboard" src="https://github.com/user-attachments/assets/991c4849-e15c-41b9-9d7f-1882112c52b0" />
 
+
+
 **Finding Sentence:**
-This week, when I worked on Tableau with my files, I was able to see what the data looked like. Before, it was just a lot of numbers, and I found it very random. However, with Tableau, I was able to actually understand what the data was trying to show because it made everything visual.
+This week, when I worked on Tableau with my files, I was able to see what the data looked like. Through this, I was able to see that 2013 had the most market-up days, while October 2008 was the month with the most market-down days in 2008.
