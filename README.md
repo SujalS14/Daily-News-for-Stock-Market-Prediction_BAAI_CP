@@ -37,3 +37,14 @@ WHERE label = 0 AND SUBSTR(date, 1, 4) = '2008'
 GROUP BY month ORDER BY down_days DESC LIMIT 5
 ```
 **Finding:** October 2008 had the most down days, 16, during the financial crisis.
+
+
+
+
+Week 3: Tableau
+
+Dashboard URL: 'https://public.tableau.com/app/profile/sujal.singarapu/viz/DJIAMarketTrendsDashboard/DJIAMarketTrendsDashboard?publish=yes'
+<img width="1511" height="826" alt="Dashboard" src="https://github.com/user-attachments/assets/991c4849-e15c-41b9-9d7f-1882112c52b0" />
+
+**Finding Sentence:**
+This week, when I worked on Tableau with my files, I was able to see what the data looked like. Before, it was just a lot of numbers, and I found it very random. However, with Tableau, I was able to actually understand what the data was trying to show because it made everything visual.
